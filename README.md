@@ -121,27 +121,39 @@ The app delivers a complete shopping experience with real-time updates, wishlist
   # Clean & lightweight DI setup
 
 
+## 🔗 Related Admin App
+
+This Customer App works alongside a dedicated **Shopping Admin App** used to manage products, categories, banners, and orders.
+
+- Admins upload product & banner images via **Supabase Storage**
+- Image URLs are stored in **Firebase Realtime Database**
+- This app fetches all data from Firebase and displays it to users
+- The Customer App does **not** connect directly to Supabase
+
+🔗 Admin App Repository:  
+https://github.com/adityasharma455/shopping-admin-app
+
+   
 🔥 Firebase Usage
 
-  🔑 Authentication
-    * Firebase Auth (Email/Password)
+🔑 Authentication
+   * Firebase Auth (Email/Password)
 
-  📦 Database Structure (Constants Used)
-        const val USER_PATH = "users"
-        const val CATEGORY_PATH = "Categories"
-        const val PRODUCT_PATH = "Products"
-        const val ADD_TO_WISH_LIST = "Add_To_WishList"
-        const val Add_TO_CART = "Add_To_Cart"
-        const val BANNER_MODEL = "BannerModel"
-        const val USER_FCM_TOKEN = "user_Fcm_Token"
-        const val ORDERS_PATH = "Orders"
-        const val USER_ORDERS_SUBCOLLECTION = "UserOrders"
+📦 Database Structure (Constants Used)
+      const val USER_PATH = "users"
+      const val CATEGORY_PATH = "Categories"
+      const val PRODUCT_PATH = "Products"
+      const val ADD_TO_WISH_LIST = "Add_To_WishList"
+      const val Add_TO_CART = "Add_To_Cart"
+      const val BANNER_MODEL = "BannerModel"
+      const val USER_FCM_TOKEN = "user_Fcm_Token"
+      const val ORDERS_PATH = "Orders"
+      const val USER_ORDERS_SUBCOLLECTION = "UserOrders"
 
-  🖼 Storage
-    # Firebase Storage for:
-      * Product images
-      * Banner images
-
+🖼 Image Handling
+- Product and banner images are fetched via URLs stored in Firebase Realtime Database
+- Images are uploaded and managed by the Admin App using Supabase Storage
+- This Customer App does not interact with any storage service directly
 
 🧠 State Handling
   * Loading states
