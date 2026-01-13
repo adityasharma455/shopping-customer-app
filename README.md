@@ -81,9 +81,9 @@ The app delivers a complete shopping experience with real-time updates, wishlist
 |-----|------------|--------|------------|--------|
 | ![AllCategoriesScreen](screenshots./AllCategoriesScreen.jpeg) | ![ProductDetails](screenshots./ProductDetails.jpeg) | ![CheckOutScreen](screenshots./CheckOutScreen.jpeg) | ![CheckOutDetails](screenshots./CheckOutDetails.jpeg) | ![PickLiveLocationScreen](screenshots./PickLiveLocation.jpeg) |
 
-| WishListScreen | CartScreen | EmptyScreen | CheckOutDetails | CustomerProfileScreen |   
+| WishListScreen | CartScreen | EmptyCart | CheckOutDetails | CustomerProfileScreen |   
 |-----|------------|--------|------------|--------|
-| ![WishListScreen](screenshots./WishListScreen.jpeg) | ![CartScreen](screenshots./CartScreen.jpeg) | ![EmptyScreen](screenshots./EmptyScreen.jpeg) | ![CheckOutDetails](screenshots./CheckOutDetails.jpeg) | ![CustomerProfileScreen](screenshots./CustomerProfileScreen.jpeg) |
+| ![WishListScreen](screenshots./WishListScreen.jpeg) | ![CartScreen](screenshots./CartScreen.jpeg) | ![EmptyCart](screenshots./EmptyCart.jpeg) | ![CheckOutDetails](screenshots./CheckOutDetails.jpeg) | ![CustomerProfileScreen](screenshots./CustomerProfileScreen.jpeg) |
 
 
 | MyOrdersScreen | SignOut| 
