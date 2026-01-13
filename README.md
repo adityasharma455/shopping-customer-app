@@ -71,6 +71,25 @@ The app delivers a complete shopping experience with real-time updates, wishlist
     * Logout
 
 
+## 📸 Screenshots
+
+| LogIn | SginUp | Home | Search | AllProductScreen |   
+|-----|------------|--------|------------|--------|
+| ![LogIn](screenshots/LogInScreen.jpeg) | ![SignUp](screenshots/CustomerSignUpScreen.jpeg) | ![Home](screenshots/HomeScreen.jpeg) | ![Search](screenshots/SearchingState.jpeg) | ![AllProductScreen](screenshots/AllProductScree.jpeg) |
+
+| AllCategoriesScreen | ProductDetails | CheckOutScreen | CheckOutDetails | PickLiveLocationScreen |   
+|-----|------------|--------|------------|--------|
+| ![AllCategoriesScreen](screenshots/AllCategoriesScreen.jpeg) | ![ProductDetails](screenshots/ProductDetails.jpeg) | ![CheckOutScreen](screenshots/CheckOutScreen.jpeg) | ![CheckOutDetails](screenshots/CheckOutDetails.jpeg) | ![PickLiveLocationScreen](screenshots/PickLiveLocation.jpeg) |
+
+| WishListScreen | CartScreen | EmptyScreen | CheckOutDetails | CustomerProfileScreen |   
+|-----|------------|--------|------------|--------|
+| ![WishListScreen](screenshots/WishListScreen.jpeg) | ![CartScreen](screenshots/CartScreen.jpeg) | ![EmptyScreen](screenshots/EmptyScreen.jpeg) | ![CheckOutDetails](screenshots/CheckOutDetails.jpeg) | ![CustomerProfileScreen](screenshots/CustomerProfileScreen.jpeg) |
+
+
+| MyOrdersScreen | SignOut| 
+|------------|--------|
+| ![MyOrdersScreen](screenshots/MyOrdersScren.jpeg) | ![SignOut](screenshots/SignOut.jpeg) | 
+
 🧭 Navigation Architecture
   * Jetpack Compose Navigation
   * Nested navigation graphs
@@ -187,9 +206,6 @@ https://github.com/adityasharma455/shopping-admin-app
      * Storage
   5. Build & Run 🚀
 
-
-
-📸 Screenshots
 
 
 📌 Future Enhancements
