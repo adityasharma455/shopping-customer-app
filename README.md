@@ -212,6 +212,20 @@ https://github.com/adityasharma455/shopping-admin-app
   * Full FCM notification support
   * Payment gateway integration
 
+🔔 FCM Token Registration
+
+  * Generate FCM token after user registration/login
+  * Store the token in Firestore under user_Fcm_Token
+  * Use token for receiving push notifications from the Admin App
+  * Enable future support for real-time product notifications
+
+FCM Flow
+
+  1. User registers or logs in
+  2. App fetches Firebase Messaging token
+  3. Token is saved in Firestore with user ID
+  4. Admin App uses this token to send product notifications
+
 
 👨‍💻 Author
 
